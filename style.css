@@ -141,3 +141,26 @@ to bottom left to right) */
 /* The CSS above controls the second element in descending order(code top to bottom, left to right controls elements on page top 
 to bottom left to right) */
 
+.ThirdContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 125px 250px 125px 250px;
+    background-color: #E5E7EB;
+    gap: 15px;
+}
+
+.ThirdContainer .Quote {
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+
+}
+
+.ThirdContainer .QuoteSayer {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
