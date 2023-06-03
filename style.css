@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+/* Above is the CSS that applies to the entire page */
+
+.TopContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 15px 200px 125px 200px;
+    row-gap: 64px;
+
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.TopContainer .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TopContainer .header .LeftSide {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.TopContainer .header .RightSide {
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 16px;
+}
+
+.TopContent {
+    display: flex;
+    gap: 60px;
+}
+
+.TopContent .LeftContent {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.TopContent .LeftContent .HeaderText {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+.TopContent .LeftContent .BodyText {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.TopContent .LeftContent .SignUp {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: rgb(55, 55, 255);
+    border-style: none;
+    border-radius: 10px;
+}
+
+.TopContent .RightContent {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(173, 173, 173);
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* The CSS above controls the Top element in descending order(code top to bottom, left to right controls elements on page top to bottom left to right) */
