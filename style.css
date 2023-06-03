@@ -23,8 +23,9 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 15px 200px 125px 200px;
+    padding: 15px 175px 125px 175px;
     row-gap: 64px;
+    min-width: 580px;
 
 }
 
@@ -86,9 +87,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: rgb(173, 173, 173);
     color: #E5E7EB;
     font-size: 18px;
+    padding: 20px;
 }
 
 /* The CSS above controls the Top element in descending order(code top to bottom, left to right controls elements on page top 
@@ -113,10 +116,12 @@ to bottom left to right) */
 
 .SecondContainer .InfoContainer {
     display: flex;
+    padding: 0px 250px 0px 250px;
+    gap: 16px;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 48px;
+    
 }
 
 .SecondContainer .InfoContainer li {
@@ -147,6 +152,7 @@ to bottom left to right) */
     justify-content: center;
     padding: 125px 250px 125px 250px;
     background-color: #E5E7EB;
+    min-width: 200px;
     gap: 15px;
 }
 
@@ -163,4 +169,50 @@ to bottom left to right) */
     font-size: 24px;
     font-weight: bold;
     color: #1F2937;
+}
+
+/* The CSS above controls the third element in descending order(code top to bottom, left to right controls elements on page top 
+to bottom left to right) */
+
+.FourthContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    padding: 125px 250px 125px 250px;
+}
+
+.FourthContainer .Banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 30px 80px 30px 80px;
+    flex: 1;
+    min-width: 350px;
+}
+.FourthContainer .Banner .BannerText {
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.FourthContainer .Banner .BannerText .HeadText{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.FourthContainer .Banner .BannerText .SubText{
+    font-size: 12px;
+}
+
+.FourthContainer .Banner .SignUp {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-color: #F9FAF8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
