@@ -216,3 +216,7 @@ to bottom left to right) */
     border-radius: 10px;
     flex-shrink: 0;
 }
+
+/* The CSS above controls the fourth element in descending order(code top to bottom, left to right controls elements on page top 
+to bottom left to right) */
+
